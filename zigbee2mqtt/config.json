@@ -1,7 +1,7 @@
 {
-  "name": "Zigbee2MQTT-Aday",
+  "name": "Zigbee2MQTT-aday",
   "version": "1.42.0-1",
-  "slug": "zigbee2mqtt-Aday",
+  "slug": "zigbee2mqtt-aday",
   "description": "Use your ZigBee devices without the vendor's bridge or gateway",
   "uart": true,
   "udev": true,
