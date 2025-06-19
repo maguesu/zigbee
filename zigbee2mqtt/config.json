@@ -5,7 +5,7 @@
   "description": "Use your ZigBee devices without the vendor's bridge or gateway",
   "uart": true,
   "udev": true,
-  "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt",
+  "url": "https://github.com/maguesu/zigbee.git",
   "startup": "application",
   "services": [
     "mqtt:need"
@@ -51,7 +51,7 @@
     "socat": {
       "enabled": false,
       "master": "pty,raw,echo=0,link=/tmp/ttyZ2M,mode=777",
-      "slave": "tcp-listen:8485,keepalive,nodelay,reuseaddr,keepidle=1,keepintvl=1,keepcnt=5",
+      "slave": "tcp-listen:8487,keepalive,nodelay,reuseaddr,keepidle=1,keepintvl=1,keepcnt=5",
       "options": "-d -d",
       "log": false
     },
